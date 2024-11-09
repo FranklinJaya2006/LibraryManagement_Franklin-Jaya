@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 
-class Jurnal extends Model
+class Cd extends Model
 {
     use HasFactory;
 
@@ -14,12 +14,12 @@ class Jurnal extends Model
      *
      * @var array
      */
-    protected $table = 'journals';
+    protected $table = 'cds';
     protected $fillable = [
         'author',
         'title',
-        'description',
+        'artist',
+        'genre',
         'thn_terbit',
-        'jml_halaman'
     ];
 }
