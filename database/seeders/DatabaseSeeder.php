@@ -18,7 +18,7 @@ class DatabaseSeeder extends Seeder
             CdSeeder::class,
             JournalSeeder::class,
             NewspaperSeeder::class,
-            SkripsiSeeder::class
+            DvdSeeder::class
         ]);
     }
 }

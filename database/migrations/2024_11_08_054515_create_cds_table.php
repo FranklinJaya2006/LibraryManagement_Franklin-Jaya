@@ -18,6 +18,7 @@ return new class extends Migration
             $table->string('artist');
             $table->string('genre');
             $table->integer('thn_terbit')->default(0);
+            $table->string('status')->default('pending');
             $table->timestamps();
         });
     }

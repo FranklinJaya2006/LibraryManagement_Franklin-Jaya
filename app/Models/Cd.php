@@ -20,6 +20,7 @@ class Cd extends Model
         'title',
         'artist',
         'genre',
-        'thn_terbit',
+        'thn_terbit', 
+        'status'
     ];
 }

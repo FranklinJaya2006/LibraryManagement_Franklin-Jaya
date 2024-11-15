@@ -22,5 +22,6 @@ class Newspaper extends Model
         'publisher',
         'category',
         'thn_terbit',
+        'status'
     ];
 }

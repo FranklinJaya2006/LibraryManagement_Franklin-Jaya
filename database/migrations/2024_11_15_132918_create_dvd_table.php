@@ -11,13 +11,14 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('skripsis', function (Blueprint $table) {
+        Schema::create('dvds', function (Blueprint $table) {
             $table->id();
             $table->string('author');
             $table->string('title');
-            $table->integer('pages')->default(0);
-            $table->string('university');
+            $table->string('artist');
+            $table->string('genre');
             $table->integer('thn_terbit')->default(0);
+            $table->string('status')->default('pending');
             $table->timestamps();
         });
     }
@@ -27,6 +28,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('skripsis');
+        Schema::dropIfExists('dvd');
     }
 };

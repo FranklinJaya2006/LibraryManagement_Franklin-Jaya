@@ -20,6 +20,7 @@ class Jurnal extends Model
         'title',
         'description',
         'thn_terbit',
-        'jml_halaman'
+        'jml_halaman',
+        'status'
     ];
 }

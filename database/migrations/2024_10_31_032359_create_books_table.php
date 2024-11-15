@@ -18,6 +18,7 @@ return new class extends Migration
             $table->text('description');
             $table->integer('thn_terbit')->default(0);
             $table->integer('jml_halaman')->default(0);
+            $table->string('status')->default('pending');
             $table->timestamps();
         });
     }

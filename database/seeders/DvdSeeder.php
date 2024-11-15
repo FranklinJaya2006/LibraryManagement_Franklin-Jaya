@@ -5,13 +5,13 @@ namespace Database\Seeders;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
-class SkripsiSeeder extends Seeder
+class DvdSeeder extends Seeder
 {
     /**
      * Run the database seeds.
      */
     public function run(): void
     {
-        \App\Models\Skripsi::factory(10)->create();
+        \App\Models\Dvd::factory(10)->create();
     }
 }
